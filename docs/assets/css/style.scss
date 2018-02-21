@@ -1,0 +1,28 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face {
+  font-family: 'ManfKana';
+  src: url("{{ '/assets/fonts/ManfKana.ttf' }}") format('truetype');
+}
+
+table, th, td {
+    border: solid 1px #AAAAAA;
+}
+
+td, th {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #CCCCCC;
+}
+
+tr:nth-child(even) {
+    font-family: "ManfKana";
+    font-size: 48px;
+}
+
