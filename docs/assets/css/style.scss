@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'ManfKana';
-  src: url("{{ '/assets/fonts/ManfKana.ttf' }}") format('truetype');
+  src: url("{{ '/assets/fonts/ManfKana.ttf' | prepend: site.github.url }}") format('truetype');
 }
 
 table, th, td {
