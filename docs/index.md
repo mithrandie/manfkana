@@ -7,6 +7,9 @@ title: 門府仮名
 
 門府仮名(まんふかな, Manf-Kana)は，古代エジプト文字を元に，日本語表記のために作成されたフォントです
 
+## ダウンロード
+
+[GitHub](https://github.com/mithrandie/manfkana)より最新のフォントファイルを取得できます
 
 ## 収録文字
 
